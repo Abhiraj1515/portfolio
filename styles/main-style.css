@@ -41,6 +41,13 @@ li {
     flex-direction: column;
 
 }
+.card {
+  background-color: var(--light-black);
+  border-radius: 18px;
+}
+.p45 {
+  padding: 45px;
+}
 
 /* HEADER STYLES */
 
@@ -89,6 +96,9 @@ li {
 .menu {
     display: none;
 }
+.m-top1 {
+  margin-top: 1rem;
+}
 
 @media only screen and (max-width: 991px) {
     .header {
@@ -113,42 +123,3 @@ li {
     margin-bottom: 7px;
 }
 
-/* HERO STYLES */ 
-.hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 1rem;
-  }
-  .hero-card {
-    background-color: var(--light-black);
-  }
-  .profile {
-    padding: 45px;
-  }
-  .profile .profile-img img {
-    width: 270px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-  }
-  .profile h2 {
-    color: #fff;
-    font-size: 35px;
-    margin-bottom: 5px;
-  }
-  .profile p {
-    color: var(--gray-color);
-    margin-bottom: 35px;
-  }
-  
-  .profile .social-media li {
-    padding: 0px 15px;
-  }
-  .profile .social-media li a {
-    border: 1px solid var(--button-border);
-    padding: 10px 15px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #fff;
-    font-size: 20px;
-  }
-  
